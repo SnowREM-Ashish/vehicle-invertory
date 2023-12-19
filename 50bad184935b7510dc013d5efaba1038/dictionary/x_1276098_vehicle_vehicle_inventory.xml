@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="168bdd8c935b7510dc013d5efaba10ff" label="Vehicle Inventory" max_length="40" name="x_1276098_vehicle_vehicle_inventory" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Chassis Number" max_length="40" name="chassis_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Maker" max_length="100" name="maker" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model Number" max_length="40" name="model_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Owner ID" max_length="40" name="owner_id" type="email"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vehicle " max_length="40" name="vehicle" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" value="other"/>
+                <element inactive_on_update="false" label="Sedan" value="sedan"/>
+                <element inactive_on_update="false" label="SUV" value="suv"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="owner" label="Owner" language="en" table="x_1276098_vehicle_vehicle_inventory">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>owner</element>
+            <help/>
+            <hint/>
+            <label>Owner</label>
+            <language>en</language>
+            <name>x_1276098_vehicle_vehicle_inventory</name>
+            <plural>Owners</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-19 04:20:32</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Owner</sys_name>
+            <sys_package display_value="Vehicle Inventory" source="x_1276098_vehicle">50bad184935b7510dc013d5efaba1038</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Vehicle Inventory">50bad184935b7510dc013d5efaba1038</sys_scope>
+            <sys_update_name>sys_documentation_x_1276098_vehicle_vehicle_inventory_owner_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-19 04:20:32</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-19 04:20:35</sys_created_on>
+        <sys_id>978b51cc935b7510dc013d5efaba107e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1276098_vehicle_vehicle_inventory.x_1276098_vehicle.vehicle_special</sys_name>
+        <sys_package display_value="Vehicle Inventory" source="x_1276098_vehicle">50bad184935b7510dc013d5efaba1038</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicle Inventory">50bad184935b7510dc013d5efaba1038</sys_scope>
+        <sys_security_acl display_value="x_1276098_vehicle_vehicle_inventory">5f8b51cc935b7510dc013d5efaba107b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_978b51cc935b7510dc013d5efaba107e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 04:20:35</sys_updated_on>
+        <sys_user_role display_value="x_1276098_vehicle.vehicle_special" name="x_1276098_vehicle.vehicle_special">6ada158c935b7510dc013d5efaba108d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
